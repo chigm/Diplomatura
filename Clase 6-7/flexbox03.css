@@ -1,0 +1,19 @@
+.contenedor{
+    background-color: gray;
+   display: inline-flex;
+   justify-content: flex-start;/*por defecto*/
+   justify-content: flex-end; /*espacio delante, los manda al fondo*/
+   justify-content: center; /*medio*/
+   justify-content: space-between; /*pone a la 1 bien a la iz y el 8 a la der, y los demas los centraliza*/
+justify-content: space-around;
+justify-content: space-evenly;
+
+   
+}
+
+.item{
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+ /*   margin: 10px;*/
+}

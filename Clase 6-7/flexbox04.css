@@ -1,0 +1,21 @@
+.contenedor{
+    background-color: gray;
+    height: 700px;
+   display: inline-flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   align-content: flex-end;
+   align-content: center;
+   align-content: space-between;
+   align-content: space-around;
+   align-content: space-evenly;
+
+   
+}
+
+.item{
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+ /*   margin: 10px;*/
+}

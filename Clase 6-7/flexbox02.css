@@ -1,0 +1,14 @@
+.contenedor{
+    background-color: gray;
+   display: inline-flex;
+   flex-wrap: nowrap /*esto es por defecto */;
+   flex-wrap: wrap; /*desbordamiento-multilineal*/
+   flex-wrap: wrap-reverse;
+}
+
+.item{
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
