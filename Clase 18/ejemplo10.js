@@ -21,7 +21,7 @@ const empleados=  [
 }
  ]
 
- //metodo array ¿? que solo muestre los desarrolladores
+ //metodo array ¿? que solo muestre los desarrolladores ==
 
 
 const busqueda = empleados.filter(nombre => nombre.trabajo === 'desarrollador')
@@ -29,4 +29,12 @@ console.log(busqueda)
 
 for (let i=0; i < busqueda.length; i++){
     document.write(`<li> ${busqueda[i].nombre}, se dedica al sector de ${busqueda[i].trabajo} </i>` )
+}
+
+//LOS QUE NO SON DESARROLLADORES !==
+
+const NObusqueda = empleados.filter(nombre => nombre.trabajo !== 'desarrollador')
+console.log(NObusqueda)
+for (let i=0; i <NObusqueda.length; i++){
+    document.write(`<li> ${busqueda[i].nombre}, se dedican a ${NObusqueda[i].trabajo} </i>` )
 }
