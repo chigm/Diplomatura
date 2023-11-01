@@ -1,0 +1,17 @@
+.cuadrado{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    border:2px solid black;
+    display: inline-flex;
+}
+
+.colorado{
+    background-color: crimson;
+}
+.azul{
+    background-color: darkcyan;
+}
+.verde{
+    background-color: darkolivegreen;
+}
